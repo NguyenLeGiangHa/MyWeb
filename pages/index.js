@@ -55,10 +55,10 @@ const Home = () => {
             animate='show'
             exit='hidden'
             className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-18'>
-            Hello, and welcome to my personal website! I'm thrilled to have you here.
+            {"Hello, and welcome to my personal website! I'm thrilled to have you here."}
             This space is where I share my finished project.
-            Whether you're a longtime friend or a new visitor, I hope you'll find something here that resonates with you.
-            Having a good day!
+            {"Whether you're a longtime friend or a new visitor, I hope you'll find something here that resonates with you."}
+            {"Having a good day!"}
         </motion.p>
         {/*btn*/}
         <div className='flex justify-center xl:hidden relative'>
