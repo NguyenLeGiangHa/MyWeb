@@ -1,19 +1,19 @@
 // icons
-import {
-  FaHtml5,
-  FaCss3,
-  FaJs,
-  FaReact,
-  FaWordpress,
-  FaFigma,
-} from "react-icons/fa";
-
-import {
-  SiNextdotjs,
-  SiFramer,
-  SiAdobexd,
-  SiAdobephotoshop,
-} from "react-icons/si";
+// import {
+//   FaHtml5,
+//   FaCss3,
+//   FaJs,
+//   FaReact,
+//   FaWordpress,
+//   FaFigma,
+// } from "react-icons/fa";
+//
+// import {
+//   SiNextdotjs,
+//   SiFramer,
+//   SiAdobexd,
+//   SiAdobephotoshop,
+// } from "react-icons/si";
 
 import React, { useState} from "react";
 //  data
@@ -88,15 +88,15 @@ import React, { useState} from "react";
 //   },
 // ];
 
-import Avatar  from "../../components/Avatar";
-import Circles from "../../components/Circles";
-
-//framer motion
-import {motion} from 'framer-motion'
-import  {fadeIn} from "../../variants";
-
-//counters
-import CountUp from "react-countup";
+// import Avatar  from "../../components/Avatar";
+// import Circles from "../../components/Circles";
+//
+// //framer motion
+// import {motion} from 'framer-motion'
+// import  {fadeIn} from "../../variants";
+//
+// //counters
+// import CountUp from "react-countup";
 
 // const About = () => {
   // const [index, setIndex] = useState(0);
@@ -238,7 +238,7 @@ import CountUp from "react-countup";
   // );
 // };
 const About = () => {
-  return <div>Card Left</div>;
+  return <div>About</div>;
 };
 
 export default About;
