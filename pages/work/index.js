@@ -21,7 +21,7 @@ const Work = () => {
                   animate="show"
                   exit="hidden"
                   className='h2 xl:mt-12'>
-                My work <span className='text-accent'>.</span>
+                <span className='text-accent'>My project</span>
               </motion.h2>
               <motion.p
                   variants={fadeIn('up', 0.4)}
@@ -29,7 +29,7 @@ const Work = () => {
                   animate="show"
                   exit="hidden"
                   className='mb-4 max-w-[400px] mx-auto lg:mx-0'>
-                zanghahahaha
+                  {"Here is my web programming exercise"}
               </motion.p>
             </div>
             {/* slider*/}

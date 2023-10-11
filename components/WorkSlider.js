@@ -5,19 +5,19 @@ export const workSlider = {
       images: [
         {
           title: 'title',
-          path: '/thumb1.jpg',
+          path: '/C06_1.png',
         },
         {
           title: 'title',
-          path: '/thumb2.jpg',
+          path: '/C06_2.png',
         },
         {
           title: 'title',
-          path: '/thumb3.jpg',
+          path: '/C07_1&2.png',
         },
         {
           title: 'title',
-          path: '/thumb4.jpg',
+          path: '/C07_3.png',
         },
       ],
     },
@@ -96,7 +96,9 @@ const WorkSlider = () => {
                               transition-all duration-300'>
                                 <div className='flex items-center gap-x-2 text-[13px] tracking-[0.2em]'>
                                 {/*  title part 1*/}
-                                  <div className='delay-100'>LIVE</div>
+                                  <div className='delay-100'>
+
+                                  </div>
                                   {/*  title part 2*/}
                                   <div className='translate-y-[500%] group-hover:translate-y-0
                                   transition-all duration-300 delay-150'>PROJECT</div>
