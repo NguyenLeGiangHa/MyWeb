@@ -1,4 +1,5 @@
 // data
+import Link from 'next/link';
 export const workSlider = {
   slides: [
     {
@@ -6,18 +7,22 @@ export const workSlider = {
         {
           title: 'title',
           path: '/C06_1.png',
+          link:'https://webex-chap06-1-8dfw.onrender.com/'
         },
         {
           title: 'title',
           path: '/C06_2.png',
+          link:'https://webex-chap06-2.onrender.com/'
         },
         {
           title: 'title',
           path: '/C07_1&2.png',
+          link:'https://webex-chap07-1and2.onrender.com/'
         },
         {
           title: 'title',
           path: '/C07_3.png',
+          link:'https://webex-chap07-3-kjo2.onrender.com/'
         },
       ],
     },
@@ -75,9 +80,11 @@ const WorkSlider = () => {
                     <div className='grid grid-cols-2 grid-rows-2 gap-4 cursor-pointer'>
                       {slide.images.map((image, index) => {
                         return (
-                            <div className='relative rounded-lg overflow-hidden flex items-center
+                            <Link className='relative rounded-lg overflow-hidden flex items-center
                             justify-center group'
                             key={index}>
+                              href={image.link}
+                              passHref={true}
                           <div className='flex items-center justify-center relative overflow-hidden group'>
                           {/*  images*/}
                             <Image
@@ -111,7 +118,7 @@ const WorkSlider = () => {
                               </div>
                             </div>
                           </div>
-                        </div>
+                        </Link>
                         );
                       })}
                     </div>
