@@ -31,18 +31,22 @@ export const workSlider = {
         {
           title: 'title',
           path: '/thumb4.jpg',
+          link:''
         },
         {
           title: 'title',
           path: '/thumb1.jpg',
+          link:''
         },
         {
           title: 'title',
           path: '/thumb2.jpg',
+          link:''
         },
         {
           title: 'title',
           path: '/thumb3.jpg',
+          link:''
         },
       ],
     },
@@ -82,9 +86,12 @@ const WorkSlider = () => {
                         return (
                             <Link className='relative rounded-lg overflow-hidden flex items-center
                             justify-center group'
-                            key={index}>
-                              href={image.link}
-                              passHref={true}
+                            key={index}
+                                  href={image.link}
+                                  passHref={true}
+                                  target="_blank"
+                            >
+
                           <div className='flex items-center justify-center relative overflow-hidden group'>
                           {/*  images*/}
                             <Image
