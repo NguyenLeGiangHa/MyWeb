@@ -89,7 +89,7 @@ const WorkSlider = () => {
                             key={index}
                                   href={image.link}
                                   passHref={true}
-                                  target="_blank"
+                                  target={image.link ? "_blank" : ""}
                             >
 
                           <div className='flex items-center justify-center relative overflow-hidden group'>
